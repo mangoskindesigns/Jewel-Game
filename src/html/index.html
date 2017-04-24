@@ -1,0 +1,102 @@
+<!doctype html>
+
+<html class="no-js">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <!--this gulp-operated boilerplate is suitable for simple projects
+    without complex transpiles or workflows-->
+
+    <title>Jewel Warrior</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <!-- social network data, using
+    https://webcode.tools/open-graph-generator -->
+    <meta property="og:type" content="product">
+    <meta property="og:title" content="Jewel Warrior">
+    <meta property="og:url" content="http://plyojump.com">
+    <meta property="og:image" content="">
+    <meta property="product:price:amount" content="Free">
+    <meta property="product:price:currency" content="">
+
+    <link href="//www.google-analytics.com" rel="dns-prefetch">
+    <link href="//ajax.googleapis.com" rel="dns-prefetch">
+
+    <!--touch icons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/img/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/img/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/img/favicons/favicon.ico">
+    <meta name="msapplication-config" content="/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--stylesheets (compiled from .scss), NOTE: this creates golden gradient-->
+    <link href="css/style.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!--
+      scripts that should run in the head, test for ability to run aframe.
+    -->
+    <script src="js/lib/modernizr/modernizr.js"></script>
+
+  </head>
+
+  <body>
+
+    <!--your stuff goes here -->
+
+    <header class="header" role="banner">
+
+        <h1 class="logo">Jewel Warrior</h1>
+
+    </header>
+
+    <main class="main">
+
+        <section id="content">
+
+            <!--entire game goes here-->
+
+            <div id="game">
+              <!-- game goes here-->
+              <div class="screen" id="splash-screen"></div>
+              <div class="screen" id="main-menu"></div>
+              <div class="screen" id="game-screen"></div>
+              <div class="screen" id="high-scores"></div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+
+    </footer>
+
+    <!--scripts that can run later-->
+
+    <!--jQuery-->
+    <script src="js/lib/jquery/jquery.min.js"></script>
+
+    <!--our main app code-->
+    <script src="js/app.min.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-3217497-1');ga('send','pageview');
+    </script>
+
+  </body>
+</html>
